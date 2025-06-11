@@ -15,4 +15,4 @@ echo "script excuted at: $TIMESTAMP"
 
 Filesystems=$(df -h)
 
-echo " to display filesystems: $filesystems
+echo "to display filesystems: $filesystems"
