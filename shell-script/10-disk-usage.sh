@@ -11,8 +11,8 @@ echo "script excuted at: $TIMESTAMP"
  echo "-------------------------------------"
 
 # Show overall disk usage
-df -hT | awk || $2=="ext4" || $2=="xfs" || $2=="btrfs"'
+df -hT | awk 'NR==1 || $2=="ext4" || $2=="xfs" || $2=="btrfs"'
 
-echo "----------------------------"
+echo "--------------------"
 echo "Top 10 largest directories in / (root):"
 du -ah / | sort -rh | head -n 10
