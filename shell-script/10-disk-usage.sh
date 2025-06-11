@@ -18,4 +18,4 @@ HOST=$(hostname)
 # du -ah / | sort -rh | head -n 10
 
 
-df -hT | awk 'NR==1'
+df -hT | awk 'NR==2'
