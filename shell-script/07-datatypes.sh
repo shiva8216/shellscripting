@@ -13,6 +13,6 @@
 TIMESTAMP=$(date)
 echo "script excuted at: $TIMESTAMP"
 
-Filesystems=$(df -h)
+df -h 
+echo "df -h"
 
-echo "to display filesystems: $filesystems"
