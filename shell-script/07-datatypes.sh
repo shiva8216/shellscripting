@@ -13,6 +13,6 @@
 TIMESTAMP=$(date)
 echo "script excuted at: $TIMESTAMP"
 
-df -h 
-echo "df -h"
+df -h |grep boot 
+echo " display fs"
 
