@@ -6,6 +6,7 @@ if [ $? -ne 0 ]
 then
     echo "mallik directory not found. Creating..."
     mkdir -p /var/tmp/mallik #> /dev/null 2>&1
+    ls -ld /var/tmp/mallik
 
 if [ $? -ne 0 ]
     then 
