@@ -6,4 +6,4 @@ mkdir /tmp/testdir
 VALIDATE $? "Creating /tmp/testdir"
 
 dnf install git -y
-VALIDATE $? "Installing Git
+VALIDATE $? "Installing Git"
