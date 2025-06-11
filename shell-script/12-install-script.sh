@@ -11,8 +11,6 @@ fi
 dnf list installed mysql
 
 if [ $?  -ne 0 ]
-then 
-    echo "ERRO:: package is not inastalled"
-else 
-    echo "Succesfull:: Mysql package installed"
+then #  not installed 
+
 fi
