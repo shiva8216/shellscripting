@@ -2,8 +2,8 @@
 
 USERID=$(id -u)
 
-mkdir /tmp/simla
-VALIDATE $? "Creating directory"
+mkdir /tmp/parrot
+VALIDATE $?  "Creating directory"
 
 # dnf install git -y
 # VALIDATE $? "Installing Git"
