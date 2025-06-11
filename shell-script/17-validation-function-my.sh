@@ -16,3 +16,7 @@ validate $? "Creating /tmp/test123"
 echo "Installing Git..."
 dnf install git -y > /dev/null 2>&1
 validate $? "Installing Git"
+
+echo "Installing gcc..."
+dnf install gcc -y > /dev/null 2>&1
+validate $? "Installing gcc"
