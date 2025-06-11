@@ -18,4 +18,4 @@ HOST=$(hostname)
 # du -ah / | sort -rh | head -n 10
 
 
-df -hT | awk 'NR==1 || $2=="ext4" || $2=="xfs" || $2=="btrfs"'
+df -hT | awk 'NR==1'
