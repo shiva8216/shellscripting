@@ -14,9 +14,8 @@ if [ $? -ne 0]
         echo "creating  Mallik directory ....Success"
     fi
    
- else
-    echo "mallik directory is ...already therere"
-
+  else
+     echo "mallik directory is ...already therere"
     fi
 
 
