@@ -9,9 +9,9 @@ validate() {
     fi
 }
 
-echo "Creating directory..."
-mkdir /tmp/sj > /dev/null 2>&1
-validate $? "Creating /tmp/sj"
+# echo "Creating directory..."
+# mkdir /tmp/sj > /dev/null 2>&1
+# validate $? "Creating /tmp/sj"
 
 echo "Installing Git..."
 dnf install git -y > /dev/null 2>&1
