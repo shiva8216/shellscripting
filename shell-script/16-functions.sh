@@ -38,3 +38,14 @@ then
 else
     echo "Git is already ... INSTALLED"
 fi
+
+
+dnf list installed apache
+
+if [ $? -ne 0 ]
+then
+    dnf install apache  -y
+    VALIDATE $? "Installing apache"
+else
+    echo "apache is already ... INSTALLED"
+fi
