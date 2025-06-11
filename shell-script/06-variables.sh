@@ -3,5 +3,5 @@
 echo "Please enter username::"
 read username
 echo "username entered: $username"
-echo "please enter your passvord::"
+echo "Please enter your password::"
 
