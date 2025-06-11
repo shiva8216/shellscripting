@@ -40,6 +40,6 @@ then
     else
         echo "Installing Git ... SUCCESS"
     fi
-else
+    else
     echo "Git is already ... INSTALLED"
 fi
