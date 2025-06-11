@@ -6,10 +6,12 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
+mkdir -p "$LOGS_FOLDER"
+
 LOGS_FOLDER="/var/log/shell-logs"
 LOG_FILE=$(echo $0 | cut -d "." -f1 )
 TIMESTAMP=$(date +%Y-%m-%d-%H-%M-%S)
-LOG_FILE_NAME="$LOGS_FOLDER/$LOG_FILE-$TIMESTAMP.log"
+LOG_FILE_NAME="$LOGS_FOLDER/$LOG_FILE-$TIMESTAMP.logs"
 
 VALIDATE(){
     if [ $1 -ne 0 ]
