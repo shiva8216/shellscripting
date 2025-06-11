@@ -13,7 +13,8 @@ if [ $? -ne 0]
     else 
         echo "creating  Mallik directory ....Success"
     fi
-    else
+   
+ else
     echo "mallik directory is ...already therere"
 
     fi
