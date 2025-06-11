@@ -4,6 +4,9 @@
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
 HOST=$(hostname)
 
+TIMESTAMP=$(date)
+echo "script excuted at: $TIMESTAMP"
+
 # echo "Disk Usage Report for $HOST on $DATE"
 # echo "-------------------------------------"
 
