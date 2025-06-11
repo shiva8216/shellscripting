@@ -8,8 +8,8 @@ if [ $? -ne 0 ]
 
 if [ $? -ne 0 ]
     then 
-        echo "creating mallik directory ....Failure"
+        echo "creating mallik directory .... Failure"
         exit 1
     else 
-        echo "creating  mallik directory ....Success"
+        echo "creating  mallik directory .... Success"
     fi
