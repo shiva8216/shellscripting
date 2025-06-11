@@ -15,5 +15,5 @@ if [ $? -ne 0 ]
         echo "creating  mallik directory .... Success"
     fi
 else 
-        echo "creating  mallik directory .... Success"
+        echo "creating  mallik directory .... Already  created"
     fi
