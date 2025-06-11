@@ -2,8 +2,8 @@
 
 USERID=$(id -u)
 
-# mkdir /tmp/raj
-# VALIDATE $? "Creating /tmp/raj"
+mkdir /tmp/simla
+VALIDATE $? "Creating directory"
 
-dnf install git -y
-VALIDATE $? "Installing Git"
+# dnf install git -y
+# VALIDATE $? "Installing Git"
