@@ -11,7 +11,7 @@ if [ $? -ne 0]
         echo "creating mallik directory ....Failure"
         exit 1
     else 
-        echo "creating  Mallik directory ....Success"
+        echo "creating  mallik directory ....Success"
     fi
    
 #   else
